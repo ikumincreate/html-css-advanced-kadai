@@ -1,0 +1,113 @@
+
+header {
+  display: flex;
+  justify-content: space-between; 
+}
+
+/* タイトル */
+#title {
+  font-weight: bold;
+  font-size: 34px;
+  border: solid 1px #0d0d0d;
+  padding: 5px 20px;
+  margin:  0 0 0 40px;
+}
+
+/* ナビゲーション */
+#navigation {
+  text-align: right;
+}
+
+#navigation > a {
+  font-weight: bold;
+  font-size: 34px;
+  text-decoration: none;
+  padding: 20px 20px 0 0;
+  margin-right: 30px;
+}
+
+#navigation > a:link {
+  color: #0d0d0d;
+}
+
+#navigation > a:visited {
+  color: #0d0d0d;
+}
+
+#navigation > a:hover {
+  color: #0d0d0d;
+  text-decoration: underline;
+}
+
+#navigation > a:active {
+  color: #0d0d0d;
+}
+
+/* メイン写真 */
+#camera > img {
+  height: 400px;
+  width: 100%;
+  margin: 10px auto 10px auto;
+}
+
+/* about */
+h2 {
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.profile > img {
+  height: auto;
+  width: auto;
+  border-radius: 50%;
+
+}
+
+
+/* PC用works */
+@media screen and (width: 768 ~ 1200px) {
+
+#works {
+  display: flex;
+}
+
+.works > div {
+  margin: 0 30px 0 30px ;
+  flex-wrap: wrap;
+}
+}
+
+
+/* SP用works */
+@media screen and (max-width: 767px) {
+
+#works {
+  display: flex;
+}
+
+.works > div {
+  margin: 0 30px 0 30px ;
+  flex-wrap: wrap;
+}
+}
+
+
+/* フッター */
+footer > p {
+  text-align: center;
+}
